@@ -43,7 +43,7 @@ body{
   
  
 strong{
-    color: #d3c50a;
+    color: #ddab07;
     width: 100%;
     box-sizing: border-box;
     font-weight: bold;
@@ -53,16 +53,23 @@ strong{
     text-decoration: none;
     color: rgb(61, 4, 66);
     font-size: 3dvw;
+    font-weight: bold;
 }
 .boton{
-    background: rgb(3, 190, 3);
-    padding: 1%;
+    background: rgb(119, 189, 119);
+    padding: 3%;
     border-radius: 30px;
     margin-top: 1%;
     margin-bottom: 7%;
+    text-align: center;
+    text-justify: center;
+}
+.boton:hover{
+    background: rgb(97, 177, 97);
+   
 }
 .ws-img{
-    width: 10%;
+    width: 9%;
     margin-right: 10px;
 }
 .flex-lateral{
@@ -75,4 +82,5 @@ strong{
     object-fit: cover;
    width: 20%;
 }
+
 
