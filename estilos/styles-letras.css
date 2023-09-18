@@ -70,8 +70,8 @@ strong{
    
 }
 .ws-img{
-    width:  10%;
-    margin-right: 10px;
+    width:  70%;
+  
 }
 .flex-lateral{
    
@@ -82,6 +82,6 @@ strong{
 .flex-lateral .flechas{
     object-fit: cover;
    width: 10%;
-   margin: 2%;
+   
 }
 
