@@ -51,13 +51,14 @@
 
 
 html {
-    background-image: url("./ganamos1.jpg");
+    background-image: url("./LANDING-1.jpg");
     background-size: 100% 100%;
     background-color: rgb(6, 0, 14);
     background-repeat: no-repeat;
-    
+    object-fit: cover;
     scroll-behavior: auto;
-  
+    max-width: 2000px;
+    min-width: 400px;
 }
 
 body {
@@ -75,9 +76,9 @@ body {
 header {
 
 
-    margin-top: 20%;
+    margin-top: 25%;
     width: 100%;
-    margin-bottom: 0%;
+    margin-bottom: 135%;
 
     text-align: center;
 
@@ -98,152 +99,7 @@ header {
     margin-top: 0;
 }
 
-.contenedor-1 {
-    width: 100%;
-    text-align: center;
-    
-}
 
-.contenedor-1-text {
-    color: #fff;
-    margin-top: 0!important;
-    margin-bottom: 0 !important;
-    font-size: 3.5vw;
-}
-
-.contenedor-2 {
-    width: 100%;
-    text-align: center;
-    margin-top: 3%;
-}
-
-.contenedor-2-text {
-    color: #fff;
-   font-size: 8vw;
-   margin-top: 0!important;
-   margin-bottom: 0 !important;
-}
-
-.contenedor-3 {
-    width: 100%;
-    text-align: center;
-    margin-top: 1%;
-}
-
-.contenedor-3-text {
-    color: #fff;
-    font-size: 3vw;
-    margin-top: 0!important;
-    margin-bottom: 0 !important;
-    margin-left: 14.5%;
-    margin-right: 14.5%;
-}
-
-.contenedor-4 {
-    width: 100%;
-    text-align: center;
-    margin-top: 1.5%;
-}
-
-.contenedor-4-text {
-    color: #fff;
-    font-size: 8vw;
-    margin-top: 0!important;
-    margin-bottom: 0 !important;
-
-}
-
-.contenedor-5 {
-    width: 100%;
-    text-align: center;
-    margin-top: 1.5%;
-}
-
-.contenedor-5-text {
-    color: #fff;
-    font-size: 3vw;
-    margin-top: 0!important;
-    margin-bottom: 0 !important;
-    margin-left: 14.5%;
-    margin-right: 14.5%;
-
-}
-
-.contenedor-6 {
-    width: 100%;
-    text-align: center;
-    margin-top: 3%;
-}
-
-.contenedor-6-text {
-    color: #fff;
-    font-size: 7vw;
-    margin-top: 0!important;
-    margin-bottom: 0 !important;
-
-}
-
-.contenedor-7 {
-    width: 100%;
-    text-align: center;
-    margin-top: 1.5%;
-   
-}
-
-.contenedor-7-text {
-    color: #fff;
-    font-size: 3vw;
-    margin-top: 0!important;
-    margin-bottom: 0 !important;
- margin-left: 14.5%;
-    margin-right: 14.5%;
-}
-
-.contenedor-8 {
-    width: 100%;
-    text-align: center;
-    margin-top: 3%;
-}
-
-.contenedor-8-text {
-    color: #fff;
-    font-size: 8vw;
-    margin-top: 0!important;
-    margin-bottom: 0 !important;
-
-}
-
-
-.contenedor-9 {
-    width: 100%;
-    text-align: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.contenedor-9-text {
-    color: #fff;
-    font-size: 3vw;
-    margin-top: 0!important;
-    margin-bottom: 0 !important;
-    margin-left: 14.5%;
-    margin-right: 14.5%;
-
-}
-
-.contenedor-10 {
-    width: 100%;
-    text-align: center;
-}
-
-.contenedor-10-text {
-    color: #fff;
-    font-size: 3vw;
-    margin-top: 0!important;
-    margin-bottom: 0 !important;
-    margin-left: 8%;
-    margin-right: 8%;
-}
 
 .contenedor-11 {
     display: flex;
@@ -253,7 +109,7 @@ header {
     width: 50%;
     text-align: center;
     margin: auto;
-    margin-top: 3%;
+    margin-top: 2%;
     
 }
 
@@ -282,138 +138,120 @@ header {
     font-weight: bold;
     
 }
-@media screen and (max-width:300px) {
+@media screen and (max-width:695px) {
+    
+
+
+    
     header {
 
 
+        margin-top: 25%;
+        width: 100%;
+        margin-bottom: 145%;
+    
+        text-align: center;
     
     
     }
-    
-    .header-text1 {
-    
-    }
-    
-    .header-text2 {
-        margin-top: 0;
-        margin-bottom: 21%;
-    }
-    
-    .contenedor-1 {
-     margin-top: 20%;
-     margin-bottom: 0;
-    }
-    
-    .contenedor-1-text {
-       margin-top:0;
-       margin-bottom: 0;
-    }
-    
-    .contenedor-2 {
-       margin-top: 2.2%;
-    }
-    
-    .contenedor-2-text {
-        margin-top: 0!important;
-        margin-bottom: 0 !important;
-    }
-    
-    .contenedor-3 {
-        margin-top: 2%;
-    }
-    
-    .contenedor-3-text {
-        margin-top: 0!important;
-        margin-bottom: 0 !important;
-    }
-    
-    .contenedor-4 {
-        margin-top: 1%;
-    }
-    
-    .contenedor-4-text {
-        margin-top: 0!important;
-        margin-bottom: 0 !important;
-    
-    }
-    
-    .contenedor-5 {
-        margin-top: 2%;
-    }
-    
-    .contenedor-5-text {
-        margin-top: 0!important;
-        margin-bottom: 0 !important;
-    
-    }
-    
-    .contenedor-6 {
-        margin-top: 2%;
-    }
-    
-    .contenedor-6-text {
-        margin-top: 0!important;
-        margin-bottom: 0 !important;
-    }
-    
-    .contenedor-7 {
-      margin-top: 2.5%;
-    }
-    
-    .contenedor-7-text {
-        margin-top: 0!important;
-        margin-bottom: 0 !important;
-    
-    }
-    
-    .contenedor-8 {
-        margin-top: 2%;
-        margin-bottom: 5%;
-    }
-    
-    .contenedor-8-text {
-        margin-top: 0!important;
-        margin-bottom: 0 !important;
-    
-    }
+}
+@media screen and (max-width:658px) {
     
     
-    .contenedor-9 {
+    header {
+
+
+        margin-top: 25%;
+        width: 100%;
+        margin-bottom: 155%;
     
-    }
-    
-    .contenedor-9-text {
+        text-align: center;
     
     
     }
+}
+@media screen and (max-width:625px) {
     
-    .contenedor-10 {
-     margin-top: 1%;
-    }
     
-    .contenedor-10-text {
-        margin-top: 0!important;
-        margin-bottom: 0 !important;
+    header {
+
+
+        margin-top: 30%;
+        width: 100%;
+        margin-bottom: 200%;
     
-    }
+        text-align: center;
     
-    .contenedor-11 {
-        margin-top: 2%;
-    }
-    
-    .contenedor-11-text {
-        margin-top: 0!important;
-        margin-bottom: 0 !important;
     
     }
+}
+@media screen and (max-width:500px) {
     
-    .contenedor-11-text a {
-     
+    
+    header {
+
+
+        margin-top: 40%;
+        width: 100%;
+        margin-bottom: 230%;
+    
+        text-align: center;
+    
+    
+    }
+}
+@media screen and (max-width:435px) {
+    
+    
+    header {
+
+
+        margin-top: 43%;
+        width: 100%;
+        /* margin-bottom: 240%; */
+    
+        text-align: center;
+    
+    
     }
 }
 
+@media screen and (max-width:400px) {
     
-    .contenedor-11-text a {
-     
+    
+    header {
+
+
+        margin-top: 43%;
+        width: 100%;
+        /* margin-bottom: 300%; */
+    
+        text-align: center;
+    
+    
     }
+
+    
+
 }
+
+
+@media screen and (max-width:400px) {
+    
+    
+    header {
+
+
+        margin-top: 43%;
+        width: 100%;
+        /* margin-bottom: 350%; */
+    
+        text-align: center;
+    
+    
+    }
+
+    
+
+}
+
