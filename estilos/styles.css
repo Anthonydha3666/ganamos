@@ -235,7 +235,7 @@ header {
     align-items: center;
     width: 100%;
     text-align: center;
-    height: 12%;
+    height: 14%;
 }
 
 .contenedor-6-text {
@@ -252,7 +252,7 @@ header {
     align-items: center;
     width: 100%;
     text-align: center;
-    height: 15%;
+    height: 17%;
 
 }
 
@@ -271,7 +271,7 @@ header {
     align-items: center;
     width: 100%;
     text-align: center;
-    height: 12%;
+    height: 14.5%;
 }
 
 .contenedor-8-text {
@@ -289,7 +289,7 @@ header {
     align-items: center;
     width: 100%;
     text-align: center;
-    height: 12%;
+    height: 14%;
 }
 
 .contenedor-9-text {
@@ -308,7 +308,7 @@ header {
     align-items: center;
     width: 100%;
     text-align: center;
-    height: 12%;
+    height: 14%;
 }
 
 .contenedor-10-text {
@@ -358,13 +358,13 @@ header {
 
 }
 
-@media (max-width:320px) and (min-width:700px) {
+@media (max-width:400px) and (min-width:320px) {
     .presentacion {
         background-image: url("./presentacion.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
 
-        height: 120vw;
+        height: 125vw;
         width: 100%;
         object-fit: cover;
         text-align: center;
@@ -388,7 +388,7 @@ header {
         background-repeat: no-repeat;
         background-size: 100% 100%;
 
-        height: 120vw;
+        height: 145vw;
         width: 100%;
         object-fit: cover;
         text-align: center;
