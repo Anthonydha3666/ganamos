@@ -55,9 +55,9 @@ html {
     background-size: 100% 100%;
     background-color: rgb(6, 0, 14);
     background-repeat: no-repeat;
-    
+
     scroll-behavior: auto;
-  
+
 }
 
 body {
@@ -68,58 +68,62 @@ body {
     font-family: 'Roboto', sans-serif;
     font-family: 'PT Sans Narrow', sans-serif;
     font-family: 'Roboto', sans-serif;
-    
+
 
 }
-.presentacion{
+
+.presentacion {
     background-image: url("./presentacion.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
+
     height: 100vw;
     width: 100%;
     object-fit: cover;
     text-align: center;
-    
-    
+
+
 }
-.body{
+
+.body {
     background-image: url("./body.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
+
     height: 100vw;
     width: 100%;
     object-fit: cover;
     text-align: center;
 }
-.footer{
+
+.footer {
     background-image: url("./footer.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
-    height: 110vw;
+
+    height: 150vw;
     width: 100%;
     object-fit: cover;
     text-align: center;
 }
+
 header {
-        
-     height: 100%;
-     display: flex;
-     flex-direction: column;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    justify-items:center ;
+    justify-items: center;
     justify-self: center;
- 
+
 
 
 }
 
 .header-text1 {
     color: #fff;
-    font-size: 6vw;
+    font-size: 9vw;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -127,29 +131,29 @@ header {
 .header-text2 {
     color: #face08;
     font-style: italic;
-    font-size: 6vw;
+    font-size: 8vw;
     margin-top: 0;
     margin-bottom: 0;
 
 }
 
- .body .contenedor-1 {
+.body .contenedor-1 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     text-align: center;
-    height: 20%;
+    height: 19%;
 
 
 }
 
-.body  .contenedor-1-text {
-    
+.body .contenedor-1-text {
+
     color: #fff;
-    margin-top: 0!important;
+    margin-top: 0 !important;
     margin-bottom: 0 !important;
-    font-size: 3.5vw;
+    font-size: 6vw;
 }
 
 .body .contenedor-2 {
@@ -163,9 +167,9 @@ header {
 
 .body .contenedor-2-text {
     color: #fff;
-   font-size: 8vw;
-   margin-top: 0!important;
-   margin-bottom: 0 !important;
+    font-size: 10vw;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .body .contenedor-3 {
@@ -179,11 +183,12 @@ header {
 
 .body .contenedor-3-text {
     color: #fff;
-    font-size: 3vw;
-    margin-top: 0!important;
+    font-size: 3.3vw;
+    margin-top: 0 !important;
     margin-bottom: 0 !important;
     margin-left: 14.5%;
     margin-right: 14.5%;
+    min-width: none;
 }
 
 .contenedor-4 {
@@ -192,15 +197,15 @@ header {
     align-items: center;
     width: 100%;
     text-align: center;
-    
+
     height: 20%;
 }
 
 .body .contenedor-4-text {
-    
+
     color: #fff;
-    font-size: 8vw;
-    margin-top: 0!important;
+    font-size: 10vw;
+    margin-top: 0 !important;
     margin-bottom: 0 !important;
 
 }
@@ -216,8 +221,8 @@ header {
 
 .body .contenedor-5-text {
     color: #fff;
-    font-size: 3vw;
-    margin-top: 0!important;
+    font-size: 3.2vw;
+    margin-top: 0 !important;
     margin-bottom: 0 !important;
     margin-left: 14.5%;
     margin-right: 14.5%;
@@ -235,8 +240,8 @@ header {
 
 .contenedor-6-text {
     color: #fff;
-    font-size: 7vw;
-    margin-top: 0!important;
+    font-size: 8vw;
+    margin-top: 0 !important;
     margin-bottom: 0 !important;
 
 }
@@ -248,15 +253,15 @@ header {
     width: 100%;
     text-align: center;
     height: 15%;
-   
+
 }
 
 .contenedor-7-text {
     color: #fff;
-    font-size: 3vw;
-    margin-top: 0!important;
+    font-size: 3.2vw;
+    margin-top: 0 !important;
     margin-bottom: 0 !important;
- margin-left: 14.5%;
+    margin-left: 14.5%;
     margin-right: 14.5%;
 }
 
@@ -271,8 +276,8 @@ header {
 
 .contenedor-8-text {
     color: #fff;
-    font-size: 8vw;
-    margin-top: 0!important;
+    font-size: 9vw;
+    margin-top: 0 !important;
     margin-bottom: 0 !important;
 
 }
@@ -289,8 +294,8 @@ header {
 
 .contenedor-9-text {
     color: #fff;
-    font-size: 3vw;
-    margin-top: 0!important;
+    font-size: 3.2vw;
+    margin-top: 0 !important;
     margin-bottom: 0 !important;
     margin-left: 14.5%;
     margin-right: 14.5%;
@@ -308,8 +313,8 @@ header {
 
 .contenedor-10-text {
     color: #fff;
-    font-size: 3vw;
-    margin-top: 0!important;
+    font-size: 3.2vw;
+    margin-top: 0 !important;
     margin-bottom: 0 !important;
     margin-left: 8%;
     margin-right: 8%;
@@ -320,20 +325,20 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 100%;
     text-align: center;
     margin: auto;
-    
-    
+
+
 }
 
 .contenedor-11-text {
     color: #fff;
-    font-size: 3vw;
+    font-size: 5vw;
 
     text-decoration-style: none;
 
-    
+
 
     margin-bottom: 10%;
     border-radius: 50px;
@@ -343,43 +348,46 @@ header {
 }
 
 .contenedor-11-text a {
-   
+
     text-decoration: none;
     font-style: none;
     color: #fff;
     margin: 0;
     padding: 0;
     font-weight: bold;
-    
+
 }
-@media screen and (max-width:375px) {
-    .presentacion{
+
+@media (max-width:320px) and (min-width:700px) {
+    .presentacion {
         background-image: url("./presentacion.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        
+
         height: 120vw;
         width: 100%;
         object-fit: cover;
         text-align: center;
-        
-        
+
+
     }
-    .body{
+
+    .body {
         background-image: url("./body.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        
+
         height: 120vw;
         width: 100%;
         object-fit: cover;
         text-align: center;
     }
-    .footer{
+
+    .footer {
         background-image: url("./footer.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        
+
         height: 120vw;
         width: 100%;
         object-fit: cover;
