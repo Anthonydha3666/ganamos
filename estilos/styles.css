@@ -57,8 +57,9 @@ html {
     background-repeat: no-repeat;
     object-fit: cover;
     scroll-behavior: auto;
-    max-width: 2000px;
+    max-width: 2560px;
     min-width: 400px;
+    max-width: 5000px;
 }
 
 body {
@@ -216,7 +217,7 @@ header {
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:425px) {
     
     
     header {
@@ -224,7 +225,7 @@ header {
 
         margin-top: 43%;
         width: 100%;
-        /* margin-bottom: 300%; */
+        margin-bottom: 250%; 
     
         text-align: center;
     
@@ -236,7 +237,7 @@ header {
 }
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:360px) {
     
     
     header {
@@ -244,11 +245,73 @@ header {
 
         margin-top: 43%;
         width: 100%;
-        /* margin-bottom: 350%; */
+         margin-bottom: 300%; 
     
         text-align: center;
     
     
+    }
+
+    
+
+}
+@media screen and (max-width:360px) {
+    
+    
+    header {
+
+
+        margin-top: 43%;
+        width: 100%;
+         margin-bottom: 300%; 
+    
+        text-align: center;
+    
+    
+    }
+
+    
+
+}
+
+@media screen and (max-width:350px) {
+    
+    
+    header {
+
+
+        margin-top: 73%;
+        width: 120%;
+         margin-bottom: 340%; 
+    
+        text-align: center;
+    
+    
+    }
+    .contenedor-11{
+        margin-bottom: 15%;
+    }
+
+    
+
+}
+
+@media screen and (max-width:375px) {
+    
+    
+    header {
+
+
+        margin-top: 73%;
+        width: 100%;
+         margin-bottom: 340%; 
+    
+        text-align: center;
+    
+    
+    }
+    .contenedor-11{
+        margin-bottom: 15%;
     }
 
     
